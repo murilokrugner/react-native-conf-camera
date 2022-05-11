@@ -17,6 +17,6 @@ const ConfCamera = NativeModules.ConfCamera
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return ConfCamera.multiply(a, b);
+export function openCamera(): Promise<string> {
+  return ConfCamera.openCamera();
 }
