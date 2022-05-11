@@ -11,11 +11,11 @@ npm install react-native-conf-camera
 ## Usage
 
 ```js
-import { multiply } from "react-native-conf-camera";
+import { openCamera } from "react-native-conf-camera";
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await openCamera();
 ```
 
 ## Contributing
